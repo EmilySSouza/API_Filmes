@@ -1,0 +1,21 @@
+{
+  "name": "api_filmes",
+  "version": "1.0.0",
+  "description": "API desenvolvida para o desafio de Node da RocketSeat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "author": "Emily Souza",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-async-errors": "^3.1.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
